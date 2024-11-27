@@ -1,0 +1,45 @@
+.music-container{
+    height: 900px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid red;
+    margin-left: 500px;
+}
+.part1{
+    height: 70%;
+    width: 100%;
+    border: 2px solid black;
+}
+.part1 img{
+height: 100%;
+width: 100%;
+}
+.part2{
+    height: 30%;
+    width: 100%;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+}
+.part2-1{
+    height: 30%;
+    width: 100%;
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.part2-1 input{
+    width: 90%;
+    
+}
+.part2-2{
+    height: 70%;
+    width: 100%;
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 50px;
+}
